@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baraya Audio | Sewa Sound System Profesional Tasikmalaya</title>
+    <meta name="description" content="Sewa sound system profesional di Tasikmalaya untuk pernikahan, event musik, korporat, dan pengajian. Estimasi anggaran instan, engineer di lapangan, kemitraan vendor wedding.">
+    <meta name="keywords" content="sewa sound system Tasikmalaya, sewa sound system pernikahan, vendor sound system, baraya audio, rental sound system, paket panggung dangdut">
+    <meta property="og:title" content="Baraya Audio | Sewa Sound System Profesional">
+    <meta property="og:description" content="Suara jernih untuk acara skala intim hingga konser. Dapatkan estimasi anggaran instan via WhatsApp.">
+    <meta property="og:image" content="assets/logo-mascot.jpg">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="id_ID">
+    <link rel="icon" href="assets/logo-badge.png" type="image/png">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Oswald:wght@500;600;700&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        display: ['Oswald', 'sans-serif'],
+                    },
+                    colors: {
+                        brand: {
+                            400: '#d4ff3f',
+                            500: '#bcf500',
+                            600: '#84cc16',
+                            800: '#1f2937',
+                            900: '#0a0a0a',
+                        },
+                        accent: '#ec4899',
+                    }
+                }
+            }
+        }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Baraya Audio",
+      "image": "assets/logo-badge.png",
+      "description": "Sewa sound system profesional dan produksi acara di Tasikmalaya.",
+      "areaServed": ["Tasikmalaya", "Priangan Timur", "Jawa Barat"],
+      "telephone": "+6282318370713",
+      "email": "officiallaristamusic@gmail.com",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Tasikmalaya",
+        "addressRegion": "Jawa Barat",
+        "addressCountry": "ID"
+      },
+      "url": "/",
+      "priceRange": "$$",
+      "sameAs": []
+    }
+    </script>
+    <style>
+        :root { --brand: #bcf500; --accent: #ec4899; }
+        .glass-nav {
+            background: rgba(10, 10, 10, 0.92);
+            backdrop-filter: blur(14px);
+            border-bottom: 1px solid rgba(188, 245, 0, 0.18);
+        }
+        .hero-pattern {
+            background-color: #0a0a0a;
+            background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23bcf500' fill-opacity='0.035'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+        }
+        @keyframes pulse-whatsapp {
+            0% { transform: scale(1); box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.7); }
+            70% { transform: scale(1.05); box-shadow: 0 0 0 15px rgba(37, 211, 102, 0); }
+            100% { transform: scale(1); box-shadow: 0 0 0 0 rgba(37, 211, 102, 0); }
+        }
+        .whatsapp-float { animation: pulse-whatsapp 2s infinite; }
+        .reveal { opacity: 0; transform: translateY(28px); transition: all 0.7s ease-out; }
+        .reveal.active { opacity: 1; transform: translateY(0); }
+        .nav-link.active { color: #bcf500; }
+        .eq-bar { display: flex; align-items: flex-end; gap: 3px; height: 28px; }
+        .eq-bar span {
+            width: 4px; background: #bcf500; border-radius: 2px;
+            animation: eq 1s ease-in-out infinite alternate;
+        }
+        .eq-bar span:nth-child(2) { animation-delay: .1s; }
+        .eq-bar span:nth-child(3) { animation-delay: .2s; }
+        .eq-bar span:nth-child(4) { animation-delay: .05s; }
+        .eq-bar span:nth-child(5) { animation-delay: .25s; }
+        @keyframes eq {
+            from { height: 6px; opacity: .5; }
+            to { height: 26px; opacity: 1; }
+        }
+        .calc-chip.selected {
+            background: #bcf500; color: #111827; border-color: #bcf500;
+        }
+        @media (max-width: 767px) {
+            .whatsapp-float { bottom: 1.25rem; }
+        }
+    </style>
+</head>
+<body class="bg-brand-900 text-gray-200 antialiased selection:bg-brand-500 selection:text-gray-900">
+
+    <nav class="fixed w-full z-50 glass-nav" id="navbar">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <a href="#beranda" class="flex-shrink-0 flex items-center gap-3" aria-label="Baraya Audio beranda">
+                    <img src="assets/logo-wordmark.jpg" alt="Baraya Audio Sound System" class="h-11 md:h-12 w-auto object-contain">
+                </a>
+                <div class="hidden lg:flex items-center space-x-7">
+                    <a href="#paket" class="nav-link text-gray-300 hover:text-brand-500 font-medium transition-colors">Paket</a>
+                    <a href="#portofolio" class="nav-link text-gray-300 hover:text-brand-500 font-medium transition-colors">Portofolio</a>
+                    <a href="#katalog" class="nav-link text-gray-300 hover:text-brand-500 font-medium transition-colors">Katalog</a>
+                    <a href="#kemitraan" class="nav-link text-gray-300 hover:text-brand-500 font-medium transition-colors">Kemitraan</a>
+                    <a href="#estimasi" class="bg-brand-500 text-gray-900 px-5 py-2.5 rounded-full font-bold hover:bg-brand-400 transition-all shadow-[0_0_15px_rgba(188,245,0,0.4)] hover:shadow-[0_0_25px_rgba(188,245,0,0.6)]">
+                        Estimasi Instan
+                    </a>
+                </div>
+                <div class="lg:hidden flex items-center">
+                    <button id="mobile-menu-btn" class="text-brand-500 hover:text-brand-400 min-h-[44px] min-w-[44px] p-2" aria-expanded="false" aria-controls="mobile-menu" aria-label="Buka menu">
+                        <i class="fa-solid fa-bars text-2xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div id="mobile-menu" class="lg:hidden hidden bg-black/95 border-t border-brand-500/20 absolute w-full">
+            <div class="px-4 pt-2 pb-6 space-y-1">
+                <a href="#paket" class="mobile-link block px-3 py-3 min-h-[44px] text-base font-medium text-gray-300 hover:text-brand-500 rounded-md">Paket</a>
+                <a href="#portofolio" class="mobile-link block px-3 py-3 min-h-[44px] text-base font-medium text-gray-300 hover:text-brand-500 rounded-md">Portofolio</a>
+                <a href="#katalog" class="mobile-link block px-3 py-3 min-h-[44px] text-base font-medium text-gray-300 hover:text-brand-500 rounded-md">Katalog</a>
+                <a href="#kemitraan" class="mobile-link block px-3 py-3 min-h-[44px] text-base font-medium text-gray-300 hover:text-brand-500 rounded-md">Kemitraan</a>
+                <a href="#estimasi" class="mobile-link block px-3 py-3 mt-3 text-center text-base font-bold text-gray-900 bg-brand-500 rounded-full">Dapatkan Estimasi Anggaran Instan</a>
+            </div>
+        </div>
+    </nav>
+
+    <section id="beranda" class="relative pt-28 pb-20 md:pt-36 md:pb-28 hero-pattern overflow-hidden">
+        <div class="absolute inset-0 bg-gradient-to-b from-black/80 via-black/75 to-brand-900"></div>
+        <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-2 gap-10 items-center">
+                <div class="text-center md:text-left z-10 reveal">
+                    <span class="inline-flex items-center gap-2 py-1 px-3 rounded-full bg-brand-500/10 text-brand-500 border border-brand-500/30 text-sm font-semibold tracking-wider mb-6">
+                        <span class="eq-bar" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></span>
+                        TASIKMALAYA &amp; PRIANGAN TIMUR
+                    </span>
+                    <h1 class="font-display text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-[1.05] mb-6 uppercase italic">
+                        Kejelasan audio tanpa distorsi untuk <span class="text-brand-500">acara skala besar</span>
+                    </h1>
+                    <p class="text-lg text-gray-300 mb-8 max-w-xl mx-auto md:mx-0">
+                        Integrasi tata suara presisi, engineer di lapangan, dan paket yang transparan — dari akad intim hingga panggung dangdut/pop outdoor.
+                    </p>
+                    <div class="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
+                        <a href="#estimasi" class="bg-brand-500 hover:bg-brand-400 text-gray-900 px-8 py-4 rounded-full font-bold text-lg transition-all shadow-[0_0_18px_rgba(188,245,0,0.45)] flex items-center justify-center gap-2">
+                            Dapatkan Estimasi Anggaran Instan
+                        </a>
+                    </div>
+                    <p class="mt-4 text-sm text-gray-500">Estimasi harga bersifat panduan awal. Finalisasi kebutuhan bisa didiskusikan langsung via WhatsApp.</p>
+                </div>
+                <div class="hidden md:flex justify-center items-center relative z-10 reveal">
+                    <div class="relative w-full max-w-lg">
+                        <img src="assets/logo-mascot.jpg" alt="Maskot gorilla Baraya Audio dengan headphone" class="w-full h-auto drop-shadow-[0_0_40px_rgba(236,72,153,0.35)]">
+                    </div>
+                    <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-72 h-72 bg-accent/25 rounded-full blur-[110px] -z-10"></div>
+                    <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-48 h-48 bg-brand-500/20 rounded-full blur-[80px] -z-10"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="tentang" class="py-16 bg-[#111111] border-y border-white/5">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-black/40 p-8 rounded-2xl border border-gray-800 hover:border-brand-500/50 transition-colors reveal">
+                    <div class="w-14 h-14 bg-brand-500/10 text-brand-500 rounded-xl flex items-center justify-center text-2xl mb-6"><i class="fa-solid fa-bolt"></i></div>
+                    <h3 class="font-display text-xl font-bold text-white mb-3 uppercase italic">Power &amp; Kualitas</h3>
+                    <p class="text-gray-400">Perangkat standar industri, dirawat berkala. Suara nendang, vokal jernih, coverage merata.</p>
+                </div>
+                <div class="bg-black/40 p-8 rounded-2xl border border-gray-800 hover:border-brand-500/50 transition-colors reveal" style="transition-delay:100ms">
+                    <div class="w-14 h-14 bg-brand-500/10 text-brand-500 rounded-xl flex items-center justify-center text-2xl mb-6"><i class="fa-solid fa-users-gear"></i></div>
+                    <h3 class="font-display text-xl font-bold text-white mb-3 uppercase italic">Tim Engineer</h3>
+                    <p class="text-gray-400">FOH dan kru lapangan siaga. Bukan sekadar sewa alat — kami rancang sistem sesuai venue.</p>
+                </div>
+                <div class="bg-black/40 p-8 rounded-2xl border border-gray-800 hover:border-brand-500/50 transition-colors reveal" style="transition-delay:200ms">
+                    <div class="w-14 h-14 bg-accent/10 text-accent rounded-xl flex items-center justify-center text-2xl mb-6"><i class="fa-solid fa-handshake-simple"></i></div>
+                    <h3 class="font-display text-xl font-bold text-white mb-3 uppercase italic">Siap Kolaborasi</h3>
+                    <p class="text-gray-400">Setup menyesuaikan skala, lokasi, dan vendor lain. Rate B2B untuk WO dan partner wedding.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="paket" class="py-20 bg-brand-900">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-14 reveal">
+                <h2 class="font-display text-3xl md:text-5xl font-bold text-white mb-4 italic uppercase">Paket Suara &amp; Acara</h2>
+                <div class="w-20 h-1 bg-brand-500 mx-auto rounded-full mb-6 shadow-[0_0_10px_rgba(188,245,0,0.5)]"></div>
+                <p class="text-lg text-gray-400 max-w-2xl mx-auto">Pilih layanan sesuai kebutuhan acaramu. Dari acara intim hingga panggung hiburan besar.</p>
+            </div>
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <article class="group bg-[#141414] rounded-2xl overflow-hidden border border-gray-800 hover:border-brand-500 transition-all reveal">
+                    <div class="h-44 overflow-hidden relative">
+                        <img src="https://images.unsplash.com/photo-1519225421980-715cb0215aed?auto=format&fit=crop&w=600&q=80" alt="Ilustrasi tata suara pernikahan" class="w-full h-full object-cover grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-500">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-transparent"></div>
+                        <h3 class="absolute bottom-4 left-4 text-brand-500 font-display font-bold text-xl italic uppercase">Pernikahan</h3>
+                    </div>
+                    <div class="p-6">
+                        <p class="text-gray-400 text-sm mb-4">Vokal akad jernih, bass resepsi yang terkontrol. Cocok 100–800 tamu, indoor atau pelataran.</p>
+                        <a href="#estimasi" class="text-white font-semibold text-sm group-hover:text-brand-500 inline-flex items-center gap-2">Cek paket wedding <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </article>
+                <article class="group bg-[#141414] rounded-2xl overflow-hidden border border-gray-800 hover:border-brand-500 transition-all reveal" style="transition-delay:80ms">
+                    <div class="h-44 overflow-hidden relative">
+                        <img src="https://images.unsplash.com/photo-1459749411175-04bf5292ceea?auto=format&fit=crop&w=600&q=80" alt="Ilustrasi event musik panggung" class="w-full h-full object-cover grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-500">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-transparent"></div>
+                        <h3 class="absolute bottom-4 left-4 text-brand-500 font-display font-bold text-xl italic uppercase">Event Musik</h3>
+                    </div>
+                    <div class="p-6">
+                        <p class="text-gray-400 text-sm mb-4">Pensi, pentas, mini konser, organ tunggal dangdut/pop. FOH + monitor untuk band dan penonton.</p>
+                        <a href="#estimasi" class="text-white font-semibold text-sm group-hover:text-brand-500 inline-flex items-center gap-2">Cek paket event <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </article>
+                <article class="group bg-[#141414] rounded-2xl overflow-hidden border border-gray-800 hover:border-brand-500 transition-all reveal" style="transition-delay:160ms">
+                    <div class="h-44 overflow-hidden relative">
+                        <img src="https://images.unsplash.com/photo-1505373877841-8d25f7d46678?auto=format&fit=crop&w=600&q=80" alt="Ilustrasi acara korporat" class="w-full h-full object-cover grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-500">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-transparent"></div>
+                        <h3 class="absolute bottom-4 left-4 text-brand-500 font-display font-bold text-xl italic uppercase">Korporat</h3>
+                    </div>
+                    <div class="p-6">
+                        <p class="text-gray-400 text-sm mb-4">Seminar, launching, gathering. Kejelasan vokal (speech intelligibility) jadi prioritas utama, bukan sekadar volume keras.</p>
+                        <a href="#estimasi" class="text-white font-semibold text-sm group-hover:text-brand-500 inline-flex items-center gap-2">Cek paket korporat <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </article>
+                <article class="group bg-[#141414] rounded-2xl overflow-hidden border border-gray-800 hover:border-brand-500 transition-all reveal" style="transition-delay:240ms">
+                    <div class="h-44 overflow-hidden relative">
+                        <img src="https://images.pexels.com/photos/36704/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=600" alt="Ilustrasi pengajian" class="w-full h-full object-cover grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-500">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-transparent"></div>
+                        <h3 class="absolute bottom-4 left-4 text-brand-500 font-display font-bold text-xl italic uppercase">Pengajian</h3>
+                    </div>
+                    <div class="p-6">
+                        <p class="text-gray-400 text-sm mb-4">Dispersi merata ke area jamaah. Setup rapi, level terkendali, ceramah tetap syahdu.</p>
+                        <a href="#estimasi" class="text-white font-semibold text-sm group-hover:text-brand-500 inline-flex items-center gap-2">Cek paket pengajian <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="portofolio" class="py-20 bg-[#111111]">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-14 reveal">
+                <h2 class="font-display text-3xl md:text-5xl font-bold text-white mb-4 italic uppercase">Studi Kasus Teknis</h2>
+                <div class="w-20 h-1 bg-brand-500 mx-auto rounded-full mb-6"></div>
+                <p class="text-lg text-gray-400 max-w-2xl mx-auto">Lebih dari sekadar galeri foto. Kami tunjukkan bagaimana Baraya Audio menangani berbagai tantangan di lapangan.</p>
+            </div>
+            <div class="grid lg:grid-cols-3 gap-8">
+                <article class="bg-black/50 border border-gray-800 rounded-2xl p-7 reveal hover:border-brand-500/40 transition-colors">
+                    <p class="text-brand-500 text-xs font-bold tracking-widest uppercase mb-3">Outdoor · ±800 tamu</p>
+                    <h3 class="font-display text-2xl font-bold text-white uppercase italic mb-4">Resepsi pelataran, angin silang</h3>
+                    <ul class="space-y-3 text-sm text-gray-400">
+                        <li><span class="text-white font-semibold">Hambatan:</span> pantulan dinding pelataran dan angin yang merobek vokal MC.</li>
+                        <li><span class="text-white font-semibold">Desain:</span> delay fill pendek, sub di-cardioid agar bass tidak “bocor” ke area tamu belakang.</li>
+                        <li><span class="text-white font-semibold">Rider:</span> 4 top + 2 sub, mixer digital, 4 ch wireless, 2 monitor.</li>
+                        <li><span class="text-white font-semibold">Hasil:</span> vokal akad tetap jelas terdengar, resepsi tanpa komplain hotspot bass.</li>
+                    </ul>
+                </article>
+                <article class="bg-black/50 border border-gray-800 rounded-2xl p-7 reveal hover:border-brand-500/40 transition-colors" style="transition-delay:100ms">
+                    <p class="text-accent text-xs font-bold tracking-widest uppercase mb-3">Panggung live · dangdut/pop</p>
+                    <h3 class="font-display text-2xl font-bold text-white uppercase italic mb-4">Mini konser lapangan</h3>
+                    <ul class="space-y-3 text-sm text-gray-400">
+                        <li><span class="text-white font-semibold">Hambatan:</span> lapangan terbuka, throw jauh, feedback dari monitor organ.</li>
+                        <li><span class="text-white font-semibold">Desain:</span> array menghadap cluster penonton, HPF agresif di vokal, side-fill terbatas.</li>
+                        <li><span class="text-white font-semibold">Rider:</span> line array compact, sub stacked, IEM opsional, genset terpisah audio.</li>
+                        <li><span class="text-white font-semibold">Hasil:</span> kick dan kendang tetap kencang tanpa menyembunyikan vokal.</li>
+                    </ul>
+                </article>
+                <article class="bg-black/50 border border-gray-800 rounded-2xl p-7 reveal hover:border-brand-500/40 transition-colors" style="transition-delay:200ms">
+                    <p class="text-brand-500 text-xs font-bold tracking-widest uppercase mb-3">Indoor · pengajian</p>
+                    <h3 class="font-display text-2xl font-bold text-white uppercase italic mb-4">Aula bergema panjang</h3>
+                    <ul class="space-y-3 text-sm text-gray-400">
+                        <li><span class="text-white font-semibold">Hambatan:</span> RT60 tinggi, ceramah pecah di barisan belakang.</li>
+                        <li><span class="text-white font-semibold">Desain:</span> lebih banyak titik speaker lebih pelan, bukan 2 box kencang di depan.</li>
+                        <li><span class="text-white font-semibold">Rider:</span> 6 titik distributed, wireless handheld, limiter ketat.</li>
+                        <li><span class="text-white font-semibold">Hasil:</span> coverage merata, level nyaman untuk lansia di baris depan.</li>
+                    </ul>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="katalog" class="py-20 bg-brand-900">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-10 reveal">
+                <h2 class="font-display text-3xl md:text-5xl font-bold text-white mb-4 italic uppercase">Katalog Inventaris</h2>
+                <div class="w-20 h-1 bg-brand-500 mx-auto rounded-full mb-6"></div>
+                <p class="text-lg text-gray-400 max-w-2xl mx-auto">Daftar perangkat standar industri yang kami gunakan. Spesifikasi teknis transparan untuk kebutuhan FOH engineer kamu.</p>
+            </div>
+            <div class="flex flex-wrap justify-center gap-2 mb-10 reveal" id="catalog-filters" role="tablist">
+                <button type="button" data-filter="all" class="catalog-filter selected px-4 py-2 rounded-full border border-brand-500 bg-brand-500 text-gray-900 text-sm font-semibold">Semua</button>
+                <button type="button" data-filter="speaker" class="catalog-filter px-4 py-2 rounded-full border border-gray-700 text-gray-300 text-sm font-semibold hover:border-brand-500">Line Array / Top</button>
+                <button type="button" data-filter="sub" class="catalog-filter px-4 py-2 rounded-full border border-gray-700 text-gray-300 text-sm font-semibold hover:border-brand-500">Subwoofer</button>
+                <button type="button" data-filter="console" class="catalog-filter px-4 py-2 rounded-full border border-gray-700 text-gray-300 text-sm font-semibold hover:border-brand-500">Konsol</button>
+                <button type="button" data-filter="mic" class="catalog-filter px-4 py-2 rounded-full border border-gray-700 text-gray-300 text-sm font-semibold hover:border-brand-500">Mikrofon</button>
+            </div>
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-5" id="catalog-grid">
+                <article data-cat="speaker" class="catalog-item bg-[#141414] border border-gray-800 rounded-2xl p-5">
+                    <h3 class="text-white font-bold mb-1">Compact Line Array</h3>
+                    <p class="text-xs text-brand-500 mb-3">SPEAKER</p>
+                    <dl class="text-sm text-gray-400 space-y-1">
+                        <div class="flex justify-between"><dt>Daya</dt><dd class="text-white">2 × 8"</dd></div>
+                        <div class="flex justify-between"><dt>SPL max</dt><dd class="text-white">±132 dB</dd></div>
+                        <div class="flex justify-between"><dt>Throw</dt><dd class="text-white">20–40 m</dd></div>
+                    </dl>
+                </article>
+                <article data-cat="sub" class="catalog-item bg-[#141414] border border-gray-800 rounded-2xl p-5">
+                    <h3 class="text-white font-bold mb-1">Dual 18" Sub</h3>
+                    <p class="text-xs text-brand-500 mb-3">SUBWOOFER</p>
+                    <dl class="text-sm text-gray-400 space-y-1">
+                        <div class="flex justify-between"><dt>Konfigurasi</dt><dd class="text-white">2×18"</dd></div>
+                        <div class="flex justify-between"><dt>Respons</dt><dd class="text-white">35–120 Hz</dd></div>
+                        <div class="flex justify-between"><dt>Aplikasi</dt><dd class="text-white">Ground stack</dd></div>
+                    </dl>
+                </article>
+                <article data-cat="console" class="catalog-item bg-[#141414] border border-gray-800 rounded-2xl p-5">
+                    <h3 class="text-white font-bold mb-1">Digital Mixer 18 Ch</h3>
+                    <p class="text-xs text-brand-500 mb-3">KONSOL</p>
+                    <dl class="text-sm text-gray-400 space-y-1">
+                        <div class="flex justify-between"><dt>Input</dt><dd class="text-white">32 ch</dd></div>
+                        <div class="flex justify-between"><dt>Scene</dt><dd class="text-white">Recall</dd></div>
+                        <div class="flex justify-between"><dt>IEM / Aux</dt><dd class="text-white">8 mix</dd></div>
+                    </dl>
+                </article>
+                <article data-cat="mic" class="catalog-item bg-[#141414] border border-gray-800 rounded-2xl p-5">
+                    <h3 class="text-white font-bold mb-1">Wireless Handheld</h3>
+                    <p class="text-xs text-brand-500 mb-3">MIKROFON</p>
+                    <dl class="text-sm text-gray-400 space-y-1">
+                        <div class="flex justify-between"><dt>Tipe</dt><dd class="text-white">Dinamis</dd></div>
+                        <div class="flex justify-between"><dt>Kanal</dt><dd class="text-white">UHF dual</dd></div>
+                        <div class="flex justify-between"><dt>Pakai</dt><dd class="text-white">MC / vokal</dd></div>
+                    </dl>
+                </article>
+            </div>
+            <p class="text-center text-gray-500 text-sm mt-8">Spesifikasi di atas adalah representasi sebagian inventaris. Technical rider lengkap akan dikirimkan saat diskusi penentuan tanggal.</p>
+        </div>
+    </section>
+
+    <!-- <section id="estimasi" class="py-20 bg-[#111111] border-y border-brand-500/20">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-10 reveal">
+                <h2 class="font-display text-3xl md:text-5xl font-bold text-white mb-4 italic uppercase">Kalkulator Anggaran</h2>
+                <div class="w-20 h-1 bg-brand-500 mx-auto rounded-full mb-6"></div>
+                <p class="text-lg text-gray-400">Masukkan skala acara. Angka bersifat <strong class="text-white">panduan orientasi</strong>, bukan quotation resmi.</p>
+            </div>
+            <div class="bg-black/60 border border-gray-800 rounded-3xl p-6 md:p-10 reveal shadow-2xl">
+                <fieldset class="mb-8">
+                    <legend class="text-white font-semibold mb-3">1. Skala penonton</legend>
+                    <div class="grid grid-cols-2 md:grid-cols-4 gap-3" id="scale-group">
+                        <button type="button" class="calc-chip selected border border-gray-700 rounded-xl py-3 px-2 text-sm" data-scale="intim">Intim &lt;100</button>
+                        <button type="button" class="calc-chip border border-gray-700 rounded-xl py-3 px-2 text-sm" data-scale="medium">100–500</button>
+                        <button type="button" class="calc-chip border border-gray-700 rounded-xl py-3 px-2 text-sm" data-scale="besar">500–2000</button>
+                        <button type="button" class="calc-chip border border-gray-700 rounded-xl py-3 px-2 text-sm" data-scale="konser">&gt;2000</button>
+                    </div>
+                </fieldset>
+                <fieldset class="mb-8">
+                    <legend class="text-white font-semibold mb-3">2. Topologi venue</legend>
+                    <div class="grid grid-cols-2 gap-3" id="topo-group">
+                        <button type="button" class="calc-chip selected border border-gray-700 rounded-xl py-3 text-sm" data-topo="indoor">Tertutup / ballroom</button>
+                        <button type="button" class="calc-chip border border-gray-700 rounded-xl py-3 text-sm" data-topo="outdoor">Terbuka / lapangan</button>
+                    </div>
+                </fieldset>
+                <fieldset class="mb-8">
+                    <legend class="text-white font-semibold mb-3">3. Infrastruktur tambahan</legend>
+                    <div class="grid sm:grid-cols-2 gap-3 text-sm" id="addon-group">
+                        <label class="flex items-center gap-3 border border-gray-700 rounded-xl py-3 px-4 cursor-pointer hover:border-brand-500/50">
+                            <input type="checkbox" value="lighting" class="accent-lime-400"> Lighting
+                        </label>
+                        <label class="flex items-center gap-3 border border-gray-700 rounded-xl py-3 px-4 cursor-pointer hover:border-brand-500/50">
+                            <input type="checkbox" value="stage" class="accent-lime-400"> Panggung
+                        </label>
+                        <label class="flex items-center gap-3 border border-gray-700 rounded-xl py-3 px-4 cursor-pointer hover:border-brand-500/50">
+                            <input type="checkbox" value="genset" class="accent-lime-400"> Genset terpisah
+                        </label>
+                        <label class="flex items-center gap-3 border border-gray-700 rounded-xl py-3 px-4 cursor-pointer hover:border-brand-500/50">
+                            <input type="checkbox" value="band" class="accent-lime-400"> Support band / organ
+                        </label>
+                    </div>
+                </fieldset>
+                <div class="bg-[#141414] border border-brand-500/30 rounded-2xl p-6 text-center">
+                    <p class="text-gray-400 text-sm mb-1">Estimasi orientasi</p>
+                    <p id="calc-range" class="font-display text-3xl md:text-4xl text-brand-500 italic">Rp 2,5 jt – 4,0 jt</p>
+                    <p class="text-gray-500 text-xs mt-2">Belum termasuk transport luar kota, overtime, dan perizinan venue.</p>
+                    <a id="wa-calc" href="#" target="_blank" rel="noopener" class="mt-6 inline-flex items-center justify-center gap-2 bg-[#25D366] hover:bg-[#1ebe5d] text-white px-8 py-3.5 rounded-full font-bold">
+                        <i class="fa-brands fa-whatsapp text-xl"></i> Konsultasikan dengan Engineer Kami
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <section id="kemitraan" class="py-20 bg-brand-900 relative overflow-hidden">
+        <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="bg-[#141414] border border-gray-800 rounded-3xl p-8 md:p-12 reveal">
+                <div class="grid md:grid-cols-2 gap-12 items-center">
+                    <div>
+                        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-brand-500/10 text-brand-500 border border-brand-500/30 text-sm font-semibold mb-6">
+                            <i class="fa-solid fa-handshake"></i> B2B
+                        </div>
+                        <h2 class="font-display text-3xl md:text-4xl font-bold mb-6 italic uppercase text-white">Vendor wedding? Mari tumbuh bersama</h2>
+                        <p class="text-gray-400 text-lg mb-6">Terbuka untuk WO, dekor, MUA, dan fotografer. Harga khusus mitra, kru yang rapi dan sangat menjaga kebersihan dekorasi, serta rekomendasi silang klien.</p>
+                        <ul class="space-y-3 mb-8 text-gray-300">
+                            <li class="flex gap-3"><i class="fa-solid fa-check text-brand-500 mt-1"></i> Harga B2B untuk partner tetap</li>
+                            <li class="flex gap-3"><i class="fa-solid fa-check text-brand-500 mt-1"></i> Koordinasi loading yang rapi</li>
+                            <li class="flex gap-3"><i class="fa-solid fa-check text-brand-500 mt-1"></i> Satu engineer penanggung jawab di hari-H</li>
+                        </ul>
+                        <a id="wa-partner" href="#" target="_blank" rel="noopener" class="inline-flex items-center bg-brand-500 text-gray-900 px-8 py-3.5 rounded-full font-bold hover:bg-brand-400">
+                            Ajukan Kemitraan <i class="fa-solid fa-arrow-right ml-2"></i>
+                        </a>
+                    </div>
+                    <div class="relative hidden md:block">
+                        <img src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=800&q=80" alt="Kolaborasi vendor pernikahan" class="rounded-2xl border-4 border-gray-800 grayscale hover:grayscale-0 transition-all duration-500">
+                        <div class="absolute -bottom-6 -left-6 bg-black text-white p-4 rounded-xl border border-brand-500 -rotate-3">
+                            <p class="font-display font-bold text-xl text-brand-500 uppercase italic">Partner</p>
+                            <p class="text-sm text-gray-400">B2B rate available</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="kontak" class="bg-black text-gray-400 pt-16 pb-8 border-t border-gray-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
+                <div class="space-y-4">
+                    <img src="assets/logo-badge.png" alt="Baraya Audio" class="h-16 w-auto object-contain mb-2">
+                    <p class="text-sm leading-relaxed">Sewa sound system bertenaga untuk Tasikmalaya dan sekitarnya. Engineer di lapangan, estimasi transparan.</p>
+                    <div class="flex space-x-3 pt-2">
+                        <a href="#" class="w-11 h-11 rounded-full bg-gray-900 flex items-center justify-center hover:bg-brand-500 hover:text-gray-900 border border-gray-800" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" class="w-11 h-11 rounded-full bg-gray-900 flex items-center justify-center hover:bg-brand-500 hover:text-gray-900 border border-gray-800" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#" class="w-11 h-11 rounded-full bg-gray-900 flex items-center justify-center hover:bg-brand-500 hover:text-gray-900 border border-gray-800" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="text-white font-bold mb-4 uppercase text-sm tracking-wider">Navigasi</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#paket" class="hover:text-brand-500">Paket</a></li>
+                        <li><a href="#portofolio" class="hover:text-brand-500">Portofolio</a></li>
+                        <li><a href="#katalog" class="hover:text-brand-500">Katalog</a></li>
+                        <li><a href="#estimasi" class="hover:text-brand-500">Estimasi</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-white font-bold mb-4 uppercase text-sm tracking-wider">Layanan</h4>
+                    <ul class="space-y-2">
+                        <li>Sewa sound wedding</li>
+                        <li>Event &amp; panggung live</li>
+                        <li>Audio korporat</li>
+                        <li>Paket pengajian</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-white font-bold mb-4 uppercase text-sm tracking-wider">Hubungi</h4>
+                    <ul class="space-y-4 text-sm">
+                        <li class="flex gap-3"><i class="fa-solid fa-location-dot mt-1 text-brand-500"></i><span>Tasikmalaya, Jawa Barat — coverage Priangan Timur</span></li>
+                        <li class="flex gap-3"><i class="fa-solid fa-phone text-brand-500"></i><span id="phone-display">+62 823-1837-0713</span></li>
+                        <li class="flex gap-3"><i class="fa-solid fa-envelope text-brand-500"></i><span>officiallaristamusic@gmail.com</span></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
+                <p class="text-sm text-gray-500">&copy; <span id="year"></span> Baraya Audio. All rights reserved.</p>
+                <p class="text-sm text-brand-500/60 font-display italic tracking-wider">SOUND SYSTEM PROFESSIONAL</p>
+            </div>
+        </div>
+    </footer>
+
+    <a id="wa-float" href="#" target="_blank" rel="noopener" class="fixed bottom-6 right-6 z-50 bg-[#25D366] text-white w-14 h-14 rounded-full flex items-center justify-center text-3xl shadow-lg whatsapp-float hover:bg-[#1ebe5d] group" aria-label="Chat via WhatsApp">
+        <i class="fa-brands fa-whatsapp"></i>
+        <span class="absolute right-16 bg-white text-gray-800 text-sm px-3 py-1.5 rounded-lg shadow-md opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap pointer-events-none font-medium">
+            Tanya Harga Sewa
+        </span>
+    </a>
+
+    <script>
+        const CONFIG = {
+            waNumber: '6282318370713',
+            phonePretty: '+62 823-1837-0713'
+        };
+
+        function waLink(text) {
+            return 'https://wa.me/' + CONFIG.waNumber + '?text=' + encodeURIComponent(text);
+        }
+
+        document.getElementById('year').textContent = new Date().getFullYear();
+        document.getElementById('phone-display').textContent = CONFIG.phonePretty;
+        document.getElementById('wa-float').href = waLink('Halo Baraya Audio, saya ingin berkonsultasi mengenai sewa sound system.');
+        document.getElementById('wa-partner').href = waLink('Halo Baraya Audio, saya dari Vendor (sebutkan nama vendor) ingin mengajak kerjasama.');
+
+        const btn = document.getElementById('mobile-menu-btn');
+        const menu = document.getElementById('mobile-menu');
+        btn.addEventListener('click', () => {
+            const open = menu.classList.toggle('hidden') === false;
+            btn.setAttribute('aria-expanded', String(open));
+            btn.querySelector('i').className = open ? 'fa-solid fa-xmark text-2xl' : 'fa-solid fa-bars text-2xl';
+        });
+        document.querySelectorAll('.mobile-link').forEach((link) => {
+            link.addEventListener('click', () => {
+                menu.classList.add('hidden');
+                btn.setAttribute('aria-expanded', 'false');
+                btn.querySelector('i').className = 'fa-solid fa-bars text-2xl';
+            });
+        });
+
+        const navbar = document.getElementById('navbar');
+        window.addEventListener('scroll', () => {
+            navbar.classList.toggle('shadow-lg', window.scrollY > 20);
+        });
+
+        function reveal() {
+            document.querySelectorAll('.reveal').forEach((el) => {
+                if (el.getBoundingClientRect().top < window.innerHeight - 90) el.classList.add('active');
+            });
+        }
+        window.addEventListener('scroll', reveal);
+        reveal();
+
+        const sections = ['paket', 'portofolio', 'katalog', 'kemitraan', 'estimasi'];
+        const navLinks = document.querySelectorAll('.nav-link');
+        window.addEventListener('scroll', () => {
+            let current = '';
+            sections.forEach((id) => {
+                const el = document.getElementById(id);
+                if (el && window.scrollY >= el.offsetTop - 120) current = id;
+            });
+            navLinks.forEach((a) => {
+                a.classList.toggle('active', a.getAttribute('href') === '#' + current);
+            });
+        });
+
+        document.querySelectorAll('.catalog-filter').forEach((btnEl) => {
+            btnEl.addEventListener('click', () => {
+                document.querySelectorAll('.catalog-filter').forEach((b) => {
+                    b.classList.remove('selected', 'bg-brand-500', 'text-gray-900', 'border-brand-500');
+                    b.classList.add('border-gray-700', 'text-gray-300');
+                });
+                btnEl.classList.add('selected', 'bg-brand-500', 'text-gray-900', 'border-brand-500');
+                btnEl.classList.remove('text-gray-300', 'border-gray-700');
+                const f = btnEl.dataset.filter;
+                document.querySelectorAll('.catalog-item').forEach((item) => {
+                    item.classList.toggle('hidden', f !== 'all' && item.dataset.cat !== f);
+                });
+            });
+        });
+
+        const BASE = {
+            intim: { indoor: [2500000, 4000000], outdoor: [3500000, 5500000] },
+            medium: { indoor: [4500000, 7500000], outdoor: [6500000, 10000000] },
+            besar: { indoor: [9000000, 15000000], outdoor: [12000000, 20000000] },
+            konser: { indoor: [18000000, 28000000], outdoor: [25000000, 45000000] }
+        };
+        const ADDON = { lighting: 1500000, stage: 2000000, genset: 1800000, band: 2500000 };
+        let scale = 'intim';
+        let topo = 'indoor';
+
+        function formatIDR(n) {
+            return 'Rp ' + (n / 1000000).toFixed(1).replace('.', ',') + ' jt';
+        }
+        function recalc() {
+            const addons = [...document.querySelectorAll('#addon-group input:checked')].map((i) => i.value);
+            const extra = addons.reduce((s, k) => s + (ADDON[k] || 0), 0);
+            const [min, max] = BASE[scale][topo];
+            document.getElementById('calc-range').textContent = formatIDR(min + extra) + ' – ' + formatIDR(max + extra);
+            const labelScale = { intim: 'intim <100', medium: '100-500', besar: '500-2000', konser: '>2000' };
+            const msg = 'Halo Baraya Audio, saya minta finalisasi estimasi.\nSkala: ' + labelScale[scale] + '\nVenue: ' + topo + '\nAdd-on: ' + (addons.join(', ') || 'tidak ada') + '\nOrientasi UI: ' + document.getElementById('calc-range').textContent;
+            document.getElementById('wa-calc').href = waLink(msg);
+        }
+        document.querySelectorAll('#scale-group .calc-chip').forEach((b) => {
+            b.addEventListener('click', () => {
+                document.querySelectorAll('#scale-group .calc-chip').forEach((x) => x.classList.remove('selected'));
+                b.classList.add('selected');
+                scale = b.dataset.scale;
+                recalc();
+            });
+        });
+        document.querySelectorAll('#topo-group .calc-chip').forEach((b) => {
+            b.addEventListener('click', () => {
+                document.querySelectorAll('#topo-group .calc-chip').forEach((x) => x.classList.remove('selected'));
+                b.classList.add('selected');
+                topo = b.dataset.topo;
+                recalc();
+            });
+        });
+        document.querySelectorAll('#addon-group input').forEach((i) => i.addEventListener('change', recalc));
+        recalc();
+    </script>
+</body>
+</html>

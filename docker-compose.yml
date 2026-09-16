@@ -1,0 +1,17 @@
+services:
+  baraya-audio-web:
+    image: nginx:alpine
+    container_name: baraya-audio-web
+    ports:
+      - "8081:80" # Port host 8081 diarahkan ke port 80 di container
+    volumes:
+      - ./:/usr/share/nginx/html:ro
+    restart: unless-stopped
+
+  cloudflare-tunnel:
+    image: cloudflare/cloudflared:latest
+    container_name: baraya-tunnel
+    command: tunnel --no-autoupdate run
+    environment:
+      - TUNNEL_TOKEN=eyJhIjoiOGNjYjMwN2Y3ZjBjY2JmMjcwN2MxOGQ4MzQ0NzU3M2EiLCJ0IjoiMTRjMGU2ZDUtMTMyNC00MWJmLThmMzAtOTk0ZWRlNjQ5OWVlIiwicyI6Ik9XWXpOR1ZpWW1ZdE9XRmhPQzAwT1dOaUxUaG1NbVF0TkdVeE5EbG1OalJqWWpkbCJ9
+    restart: unless-stopped
